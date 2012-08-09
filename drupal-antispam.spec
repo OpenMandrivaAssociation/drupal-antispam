@@ -1,6 +1,6 @@
 %define modname		antispam
 %define drupal_version	7
-%define module_version	1.4
+%define module_version	1.5
 %define version		%{drupal_version}.x.%{module_version}
 %define tarname		%{modname}-%{drupal_version}.x-%{module_version}
 
