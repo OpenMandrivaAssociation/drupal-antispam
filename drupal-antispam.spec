@@ -36,3 +36,14 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/*.txt
 
 %files
 %{_var}/www/drupal/modules/%{modname}
+
+
+%changelog
+* Thu Aug 09 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.5-1
++ Revision: 813169
+- update to 7.x.1.5
+
+* Sat May 12 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.4-1
++ Revision: 798469
+- imported package drupal-antispam
+
